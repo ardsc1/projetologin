@@ -70,17 +70,13 @@ form div.campo{
   margin: 5px 0px;
 }
 div.campo > input{
-  background-color: #94cfcd;
-  width: calc(100% - 44.5px);
+  background-color: #ffffff;
+  width: calc(100% - 44.45px);
   height: 100%;
-  border: 0px;
-  border-radius: 8px;
+  border: none;
+  border-radius: 5px;
   padding: 4px;
   transform: translatey(-14.5px);
-}
-div.campo > input:focus-within{
-  background-color: white;
-  border: none;
 }
 
 div.campo > label{
@@ -128,6 +124,10 @@ form > a.botao{
   border-radius: 7px;
   text-decoration: none;
 }
+form > a.botao > a{
+  margin-top: 5px;
+}
+
 form > a.botao:hover{
   background-color: #6cd3cf;
 }
